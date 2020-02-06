@@ -9,8 +9,8 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-  attendees.collect do |name| 
-    badge_maker(name) #call
+  attendees.collect do |name| #creates new array 
+    badge_maker(name) #calls on badge_maker 
   end
 end
     
