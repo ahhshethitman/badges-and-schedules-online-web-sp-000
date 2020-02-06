@@ -7,7 +7,7 @@ badge_maker(name)
   return "Hello, my name is #{name}."
 
 end
-end
+
 
   describe '#badge_maker' do
 
