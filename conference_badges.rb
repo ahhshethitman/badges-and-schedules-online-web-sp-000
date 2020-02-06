@@ -8,5 +8,13 @@ def badge_maker(name)
 
 end
 
+names = ["Edsger","Ada","Charles","Alan","Grace","Linus","Matz"]
 
-def batch_badge_creator(names)  
+def batch_badge_creator(names)
+  
+  names.each do |name|
+    puts "New badge message #{name}"
+  
+  end
+end
+    
