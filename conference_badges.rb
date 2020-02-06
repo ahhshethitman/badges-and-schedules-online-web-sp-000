@@ -11,9 +11,10 @@ end
 names = ["Edsger","Ada","Charles","Alan","Grace","Linus","Matz"]
 
 def batch_badge_creator(names)
+  new_array = []
   
   names.each do |name|
-    puts "New badge message #{name}"
+    new_array << "Hello, my name is #{name}"
   
   end
 end
