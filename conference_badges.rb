@@ -19,7 +19,7 @@ end
   room=0
   attendees.collect do |name|
     room+=1
-   puts "Hello, #{name}! You'll be assigned to room #{room}!"
+   "Hello, #{name}! You'll be assigned to room #{room}!"
   end
 end
 
